@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="calculator">
+    <div class="top-content">
+        <div class="top">
+            <div class="text">RGB CALC</div>
+            <div class="monitor"></div>
+        </div>
+        <div class="main-monitor">
+            <p></p>
+        </div>
+    </div>
+    <div class="buttons">
+        <div class="parent">
+            <div class="button-1 button" onclick="button1()">1</div>
+            <div class="button-2 button" onclick="button2()">2</div>
+            <div class="button-3 button" onclick="button3()">3</div>
+            <div class="button-4 button" onclick="button4()">4</div>
+            <div class="button-5 button" onclick="button5()">5</div>
+            <div class="button-6 button" onclick="button6()">6</div>
+            <div class="button-7 button" onclick="button7()">7</div>
+            <div class="button-8 button" onclick="button8()">8</div>
+            <div class="button-9 button" onclick="button9()">9</div>
+            <div class="button-0 button" onclick="button0()">0</div>
+            <div class="button-point button" onclick="buttonPoint()">.</div>
+            <div class="button-equals button" onclick="equals()">=</div>
+            <div class="button-plus button" onclick="buttonPlus()">+</div>
+            <div class="button-minus button" onclick="buttonMinus()">-</div>
+            <div class="button-multiplication button" onclick="buttonMultiplication()">x</div>
+            <div class="button-division button" onclick="buttonDivision()">%</div>
+            <div class="button-reverse button" onclick="buttonReverse()">+/-</div>
+            <div class="button-ac button" onclick="buttonAC()">AC</div>
+            <div class="button-c button" onclick="buttonC()">C</div>
+        </div>
+    </div>
+</div>
+
+<script src="script/main.js"></script>
+<script src="script/keydown.js"></script>
+</body>
+</html>
